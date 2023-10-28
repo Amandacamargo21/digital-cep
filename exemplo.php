@@ -6,6 +6,6 @@ use Amand\DigitalCep\Search;
 
 $busca = new Search;
 
-$resulltado = $busca->getAdressfromZipcode("01001000");
+$resultado = $busca->getAddressFromZipcode('01001000');
 
-print_r($resulltado);
+print_r($resultado);
